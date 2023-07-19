@@ -30,7 +30,7 @@ phases:
 #      - echo Writing image definitions file...
 #      - printf '[{"name":"service-registry","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 #      - cat imagedefinitions.json
-#artifacts:
+artifacts:
   files:
     - target/service-registry.jar
   discard-paths: yes
